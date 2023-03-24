@@ -19,3 +19,38 @@ body{
     width: 150px;
     border-radius: 100%
 }
+.name {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Gasalt-Black;
+    font-weight: bold;
+    font-size: 40px;
+}
+.bio {
+    margin: 40px;
+    text-align: center;
+}
+.linksocial {
+    margin: 210px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: blue;
+    text-decoration: none;
+}
+.linksocial:hover {
+    border-radius: 25px;
+    background-color: #157dc3;
+    color: white;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+@font-face {
+    font-family: 'Gasalt-Black';
+    src: url(../fonts/Gasalt-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
